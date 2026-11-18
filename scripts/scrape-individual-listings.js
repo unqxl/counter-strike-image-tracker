@@ -29,7 +29,7 @@ if (REFETCH_ALL && NON_CDN_ONLY) {
 
 const CONFIG = {
 	STATIC_DIR: path.join(__dirname, "..", "static"),
-	ITEMS_API_BASE_URL: "https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en",
+	ITEMS_API_BASE_URL: "https://raw.githubusercontent.com/unqxl/CSGO-API/main/public/api/en",
 	MARKET_BASE_URL: "https://steamcommunity.com/market",
 	MAX_DURATION: 3600 * 1000 * 4, // 4 hours
 	DELAY_PER_ITEM: 10 * 1000, // 10 seconds
