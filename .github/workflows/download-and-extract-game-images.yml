@@ -65,7 +65,7 @@ jobs:
 
       - name: Trigger CSGO-API update
         run: |
-          gh api repos/ByMykel/CSGO-API/dispatches \
+          gh api repos/unqxl/CSGO-API/dispatches \
             -f event_type=game-images-updated
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
